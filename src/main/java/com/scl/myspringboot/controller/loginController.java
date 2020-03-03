@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class loginController {
     @RequestMapping(value = "/login")
     public  String  login(){
-        return "index";
+        return "index999";
     }
 }
