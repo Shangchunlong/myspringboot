@@ -1,6 +1,6 @@
 package com.scl.myspringboot.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class loginController {
-    @RequestMapping(value = "/login")
-    public  String  login(){
+    @GetMapping("/login")
+    public String login() {
         return "index999";
     }
 }
